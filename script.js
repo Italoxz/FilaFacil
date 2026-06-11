@@ -27,7 +27,7 @@ let filas = JSON.parse(
 localStorage.getItem("filazero")
 ) || {
 
-    Banco: [],
+    "ID Bank": [],
     "Posto de Saúde": [],
     Hospital: [],
     Laboratório: [],
@@ -40,7 +40,7 @@ let contadores = JSON.parse(
 localStorage.getItem("contadores")
 ) || {
 
-    Banco: 0,
+    "ID Bank": 0,
     "Posto de Saúde": 0,
     Hospital: 0,
     Laboratório: 0,
@@ -55,7 +55,7 @@ localStorage.getItem("contadores")
 
 const prefixos = {
 
-    Banco: "B",
+    "ID Bank": "B",
     "Posto de Saúde": "PS",
     Hospital: "H",
     Laboratório: "L",
